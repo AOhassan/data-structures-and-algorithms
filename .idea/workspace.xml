@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d230f4ea-8a76-462d-8ebb-295ef8c12799" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/D01_ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D01_ArrayReverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/D01_ArrayReverseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D01_ArrayReverseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="D01_ArrayReverse.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/D01_ArrayReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="30">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -272,8 +270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/D01_ArrayReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="30">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
