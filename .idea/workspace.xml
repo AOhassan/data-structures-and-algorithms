@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d230f4ea-8a76-462d-8ebb-295ef8c12799" name="Default" comment="" />
+    <list default="true" id="d230f4ea-8a76-462d-8ebb-295ef8c12799" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/D01_ArrayReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/D01_ArrayReverse.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,13 +26,11 @@
       <file leaf-file-name="D01_ArrayReverseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/D01_ArrayReverseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,9 +57,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -204,9 +205,24 @@
     <history-entry file="D01_ArrayReverseTest - 2018.07.09 at 18h 15m 55s.xml">
       <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 24m 23s.xml">
+      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 24m 59s.xml">
+      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 25m 48s.xml">
+      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 25m 59s.xml">
+      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 31m 38s.xml">
+      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -243,13 +259,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/D01_ArrayReverseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
