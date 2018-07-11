@@ -1,3 +1,7 @@
+package day01;
+
+import day01.D01_ArrayReverse;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class D01_ArrayReverseTest {
