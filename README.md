@@ -8,5 +8,4 @@ This function (reverseArray) reverses an integer array and returns it.
 
 The challenge reverses the array using a different method.
 
-## Solution
-<!-- Embedded whiteboard image -->
+No whiteboard
