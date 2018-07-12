@@ -1,3 +1,5 @@
+package day03;
+
 public class BinarySearch {
     public static int binarySearch(int[] arr, int num){
 
