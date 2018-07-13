@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d230f4ea-8a76-462d-8ebb-295ef8c12799" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/FibonacciTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/TransposeMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/TransposeMatrixTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d230f4ea-8a76-462d-8ebb-295ef8c12799" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TransposeMatrix.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransposeMatrix.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -28,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransposeMatrixTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransposeMatrixTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -365,9 +361,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D04_ArrayAdjacentProductTest - 2018.07.12 at 23h 54m 45s.xml">
-      <configuration name="D04_ArrayAdjacentProductTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransposeMatrixTest - 2018.07.13 at 14h 32m 50s.xml">
       <configuration name="TransposeMatrixTest" configurationId="JUnit" />
     </history-entry>
@@ -393,6 +386,9 @@
       <configuration name="FibonacciTest.FibonacciTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TransposeMatrixTest_transposeMatrix - 2018.07.13 at 14h 58m 15s.xml">
+      <configuration name="TransposeMatrixTest.transposeMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrixTest_transposeMatrix - 2018.07.13 at 15h 00m 50s.xml">
       <configuration name="TransposeMatrixTest.transposeMatrix" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -581,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day05/FibonacciTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -612,6 +601,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
