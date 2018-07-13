@@ -9,8 +9,8 @@ class FibonacciTest {
     void FibonacciTest(){
 
 
-        int expected = 4;
-        int actual = Fibonacci.fib(3);
+        int expected = 55;
+        int actual = Fibonacci.fib(10);
 
         assertEquals(expected, actual);
 

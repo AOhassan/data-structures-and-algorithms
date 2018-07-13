@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d230f4ea-8a76-462d-8ebb-295ef8c12799" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/FibonacciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/FibonacciTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/TransposeMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/TransposeMatrixTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,17 +22,17 @@
       <file leaf-file-name="TransposeMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransposeMatrixTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransposeMatrixTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="240">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FibonacciTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day05/FibonacciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +90,10 @@
         <option value="$PROJECT_DIR$/src/day04/D04_ArrayAdjacentProductTest.java" />
         <option value="$PROJECT_DIR$/src/day04/D04_ArrayAdjacentProduct.java" />
         <option value="$PROJECT_DIR$/src/day 05/TransposeMatrix.java" />
-        <option value="$PROJECT_DIR$/src/day05/TransposeMatrixTest.java" />
-        <option value="$PROJECT_DIR$/src/day05/FibonacciTest.java" />
         <option value="$PROJECT_DIR$/src/day05/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/day05/TransposeMatrix.java" />
+        <option value="$PROJECT_DIR$/src/day05/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/day05/TransposeMatrixTest.java" />
       </list>
     </option>
   </component>
@@ -181,32 +183,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransposeMatrixTest">
+  <component name="RunManager" selected="JUnit.TransposeMatrixTest.transposeMatrix">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="day03" />
-      <option name="MAIN_CLASS_NAME" value="day03.BinarySearchTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="D01_ArrayReverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-challenges" />
@@ -214,29 +193,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="day01" />
       <option name="MAIN_CLASS_NAME" value="day01.D01_ArrayReverseTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="D04_ArrayAdjacentProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="data-structures-and-algorithms-challenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="day04" />
-      <option name="MAIN_CLASS_NAME" value="day04.D04_ArrayAdjacentProductTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -271,6 +227,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="FibonacciTest.FibonacciTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.FibonacciTest" />
+      <option name="METHOD_NAME" value="FibonacciTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TransposeMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="data-structures-and-algorithms-challenges" />
       <extension name="coverage">
@@ -285,6 +264,29 @@
       <option name="MAIN_CLASS_NAME" value="day05.TransposeMatrixTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TransposeMatrixTest.transposeMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structures-and-algorithms-challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="day05" />
+      <option name="MAIN_CLASS_NAME" value="day05.TransposeMatrixTest" />
+      <option name="METHOD_NAME" value="transposeMatrix" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -334,18 +336,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.D01_ArrayReverseTest" />
-      <item itemvalue="JUnit.BinarySearchTest" />
-      <item itemvalue="JUnit.D04_ArrayAdjacentProductTest" />
       <item itemvalue="JUnit.TransposeMatrixTest" />
       <item itemvalue="JUnit.FibonacciTest" />
+      <item itemvalue="JUnit.FibonacciTest.FibonacciTest" />
+      <item itemvalue="JUnit.TransposeMatrixTest.transposeMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransposeMatrixTest.transposeMatrix" />
+        <item itemvalue="JUnit.FibonacciTest.FibonacciTest" />
         <item itemvalue="JUnit.TransposeMatrixTest" />
         <item itemvalue="JUnit.FibonacciTest" />
         <item itemvalue="JUnit.D01_ArrayReverseTest" />
-        <item itemvalue="JUnit.D04_ArrayAdjacentProductTest" />
-        <item itemvalue="JUnit.BinarySearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -363,35 +365,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 24m 23s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 24m 59s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 25m 48s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 25m 59s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.10 at 10h 31m 38s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D01_ArrayReverseTest - 2018.07.11 at 08h 46m 12s.xml">
-      <configuration name="D01_ArrayReverseTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D04_ArrayAdjacentProductTest - 2018.07.12 at 23h 49m 54s.xml">
-      <configuration name="D04_ArrayAdjacentProductTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D04_ArrayAdjacentProductTest - 2018.07.12 at 23h 50m 35s.xml">
-      <configuration name="D04_ArrayAdjacentProductTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="D04_ArrayAdjacentProductTest - 2018.07.12 at 23h 53m 03s.xml">
-      <configuration name="D04_ArrayAdjacentProductTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="D04_ArrayAdjacentProductTest - 2018.07.12 at 23h 54m 45s.xml">
       <configuration name="D04_ArrayAdjacentProductTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrixTest - 2018.07.13 at 14h 32m 50s.xml">
+      <configuration name="TransposeMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrixTest - 2018.07.13 at 14h 40m 23s.xml">
+      <configuration name="TransposeMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrixTest - 2018.07.13 at 14h 41m 27s.xml">
+      <configuration name="TransposeMatrixTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_FibonacciTest - 2018.07.13 at 14h 41m 56s.xml">
+      <configuration name="FibonacciTest.FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_FibonacciTest - 2018.07.13 at 14h 42m 43s.xml">
+      <configuration name="FibonacciTest.FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_FibonacciTest - 2018.07.13 at 14h 42m 58s.xml">
+      <configuration name="FibonacciTest.FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_FibonacciTest - 2018.07.13 at 14h 56m 00s.xml">
+      <configuration name="FibonacciTest.FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FibonacciTest_FibonacciTest - 2018.07.13 at 14h 58m 07s.xml">
+      <configuration name="FibonacciTest.FibonacciTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrixTest_transposeMatrix - 2018.07.13 at 14h 58m 15s.xml">
+      <configuration name="TransposeMatrixTest.transposeMatrix" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -400,13 +402,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32900944" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900944" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -581,8 +583,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day05/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -595,18 +607,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day05/TransposeMatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day05/FibonacciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
