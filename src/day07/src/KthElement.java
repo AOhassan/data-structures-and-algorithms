@@ -1,8 +1,9 @@
-public
+package day07.src;
+
 public class KthElement {
     ListNode root;
 
-    public int kthElement(int k) {
+    public ListNode kthElement(int k) {
 
         this.root = null;
         ListNode current = this.root;
@@ -19,7 +20,7 @@ public class KthElement {
             current = current.next;
             count++;
         }
-        return current.data;
+        return current;
     }
 }
 

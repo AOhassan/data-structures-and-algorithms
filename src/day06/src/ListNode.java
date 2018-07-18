@@ -1,3 +1,5 @@
+package day06.src;
+
 public class ListNode {
     public int data;
     public ListNode next;

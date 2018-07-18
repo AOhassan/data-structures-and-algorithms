@@ -1,3 +1,5 @@
+package day06.src;
+
 public class LinkedList {
     ListNode root;
 
@@ -37,6 +39,23 @@ public class LinkedList {
         current.next = newValue;
     }
 
+    public void prepend(int data) {
+        ListNode nn = new ListNode(data);
+        nn.next = this.root;
+        this.root = nn;
+    }
+
+    public int size() {
+        int total = 0;
+
+        ListNode current = this.root;
+        while (current != null) {
+            total++;
+            current = current.next;
+        }
+        return total;
+
+    }
     public int[] toArray() {
         int[] numbers = new int[this.size()];
 

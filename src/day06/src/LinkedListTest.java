@@ -1,14 +1,24 @@
+package day06.src;
+
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
 
 class LinkedListTest {
 
 
 
-    @org.junit.jupiter.api.Test
-    void append() {
+    @Test
+    void appendToEmptyListTest() {
+        LinkedList l1 = new LinkedList();
+        l1.append(5);
 
-        int[] actual
-        int[] expected = {1,2,3,4,5};
+        assert
+
+
+        int[] actual = l1.toArray();
+        int[] expected = {5};
+        assertArrayEquals(expected,actual);
     }
 
     @org.junit.jupiter.api.Test
@@ -18,4 +28,5 @@ class LinkedListTest {
     @org.junit.jupiter.api.Test
     void insertAfter() {
     }
+
 }
