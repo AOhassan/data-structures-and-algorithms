@@ -22,6 +22,37 @@ public class KthElement {
         }
         return current;
     }
+
+    public void prepend(int data) {
+        ListNode nn = new ListNode(data);
+        nn.next = this.root;
+        this.root = nn;
+    }
+
+    public int size() {
+        int total = 0;
+
+        ListNode current = this.root;
+        while (current != null) {
+            total++;
+            current = current.next;
+        }
+        return total;
+    }
+
+    public int[] toArray() {
+        int[] numbers = new int[this.size()];
+
+        int i = 0;
+        ListNode current = this.root;
+        while (current != null) {
+            numbers[i] = current.data;
+            i++;
+        }
+        return numbers;
+    }
 }
+
+
 
 

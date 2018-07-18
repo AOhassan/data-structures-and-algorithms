@@ -1,31 +1,35 @@
+package day07.src;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 class KthElementTest {
 
     @org.junit.jupiter.api.Test
-    void kthElementTest() {
-        LinkedList l1 = new LinkedList();
-        l1.add(1);
-        l1.add(3);
-        l1.add(8);
-        l1.add(2);
+    void kthElementTest1() {
+        KthElement l1 = new KthElement();
+        l1.prepend(2);
+        l1.prepend(8);
+        l1.prepend(1);
+        l1.prepend(3);
 
-        int actaul = l1.
-        int expected = 2;
+        ListNode expected = l1.root.next.next.next;
+        ListNode actual = l1.kthElement(0);
 
-        assertEquals(expected, actaul);
-
+        assertEquals(expected, actual);
     }
 
     @org.junit.jupiter.api.Test
-    void kthElementTest() {
-        LinkedList l1 = new LinkedList();
-        l1.add(1);
-        l1.add(3);
-        l1.add(8);
-        l1.add(2);
+    void kthElementTest2() {
 
-        int actaul =
-        int expected = 2;
+        KthElement l1 = new KthElement();
+        l1.prepend(2);
+        l1.prepend(8);
+        l1.prepend(1);
+        l1.prepend(3);
 
-        assertEquals(expected, actaul);
+        ListNode expected = l1.root.next.next.next;
+        ListNode actual = l1.kthElement(0);
+
+        assertEquals(expected, actual);
     }
 }

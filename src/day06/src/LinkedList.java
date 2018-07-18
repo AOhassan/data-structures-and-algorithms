@@ -45,22 +45,19 @@ public class LinkedList {
         this.root = nn;
     }
 
-    public int size() {
-        int total = 0;
+    public int[] toArray() {
 
+        int total = 0;
         ListNode current = this.root;
         while (current != null) {
             total++;
             current = current.next;
         }
-        return total;
 
-    }
-    public int[] toArray() {
-        int[] numbers = new int[this.size()];
+        int[] numbers = new int[total];
 
         int i = 0;
-        ListNode current = this.root;
+        current = this.root;
         while (current != null) {
             numbers[i] = current.data;
             i++;

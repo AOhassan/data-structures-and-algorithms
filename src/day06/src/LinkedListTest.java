@@ -9,15 +9,30 @@ class LinkedListTest {
 
 
     @Test
-    void appendToEmptyListTest() {
+    void appendToShortList() {
         LinkedList l1 = new LinkedList();
+        l1.prepend(1);
         l1.append(5);
-
-        assert
 
 
         int[] actual = l1.toArray();
-        int[] expected = {5};
+        int[] expected = {1,5};
+        assertArrayEquals(expected,actual);
+    }
+
+    @Test
+    void appendToLongList() {
+        LinkedList l1 = new LinkedList();
+        l1.prepend(6);
+        l1.prepend(5);
+        l1.prepend(4);
+        l1.prepend(3);
+        l1.prepend(2);
+        l1.prepend(1);
+        l1.append(7);
+
+        int[] actual = l1.toArray();
+        int[] expected = {1,2,3,4,5,6,7};
         assertArrayEquals(expected,actual);
     }
 
@@ -28,5 +43,22 @@ class LinkedListTest {
     @org.junit.jupiter.api.Test
     void insertAfter() {
     }
+
+    @org.junit.jupiter.api.Test
+    void toArrayTest() {
+        LinkedList l1 = new LinkedList();
+        l1.prepend(6);
+        l1.prepend(5);
+        l1.prepend(4);
+        l1.prepend(3);
+        l1.prepend(2);
+        l1.prepend(1);
+
+        int[] actual = l1.toArray();
+        int[] expected = {1,2,3,4,5,6};
+
+        assertArrayEquals(expected,actual);
+    }
+
 
 }
