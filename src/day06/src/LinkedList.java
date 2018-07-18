@@ -14,7 +14,7 @@ public class LinkedList {
         current.next = val;
     }
 
-    public void insertBefore(int value, int newVal){
+    public void insertBefore(int value, int newVal) {
         ListNode newValue = new ListNode(newVal);
         ListNode current = this.root;
         while (current.next.data != value) {
@@ -24,17 +24,17 @@ public class LinkedList {
         current.next = newValue;
     }
 
-    public void insertAfter(int value, int newVal){
+    public void insertAfter(int value, int newVal) {
         ListNode newValue = new ListNode(newVal);
         ListNode current = this.root;
-        if(this.root.data == value){
+        if (this.root.data == value) {
 
         }
         while (current.data != value) {
             current = current.next;
         }
         newValue.next = current.next;
-        current.next =  newValue;
+        current.next = newValue;
     }
 
     public int[] toArray() {
@@ -51,6 +51,5 @@ public class LinkedList {
     }
 
 
-
-    }
 }
+
