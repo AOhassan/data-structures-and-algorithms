@@ -13,10 +13,10 @@ public class LinkedList {
 
         ListNode current = this.root;
         while(current != null) {
-            if(set.contains(current.data)){       // checks if the set has current node value
+            if(set.contains(current.data)){
                 return true;
             }
-            set.add(current.data);             // if it doesn't it adds that value to the set
+            set.add(current.data);
             current = current.next;
         }
         return false;
