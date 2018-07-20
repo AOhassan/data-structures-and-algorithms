@@ -1,4 +1,3 @@
-import java.util.Collections;
 import java.util.HashSet;
 
 public class LinkedList {
@@ -9,15 +8,15 @@ public class LinkedList {
 
     public boolean hasLoop() {
 
-        HashSet<Integer> list = new HashSet<>();
+        HashSet<Integer> set = new HashSet<>();
         LinkedList ll = new LinkedList();
 
         ListNode current = this.root;
         while(current != null) {
-            if(list.contains(current.data)){
+            if(set.contains(current.data)){       // checks if the set has current node value
                 return true;
             }
-            list.add(current.data);
+            set.add(current.data);             // if it doesn't it adds that value to the set
             current = current.next;
         }
         return false;
