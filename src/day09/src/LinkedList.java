@@ -7,47 +7,19 @@ public class LinkedList {
         this.root = null;
     }
 
-    public static boolean hasLoop() {
+    public boolean hasLoop() {
+
         HashSet<Integer> list = new HashSet<>();
         LinkedList ll = new LinkedList();
-       while(current != null) {
-                list.add(ll.get(i));
-            }
-        for (int i = 0; i < list.size(); i++) {
-            if (list.contains(i))
+
+        ListNode current = this.root;
+        while(current != null) {
+            if(list.contains(current.data)){
                 return true;
+            }
+            list.add(current.data);
+            current = current.next;
         }
         return false;
-    }
-
-    public int get(int index) {
-        int n = 0;
-        ListNode current = this.root;
-
-        while (n < index) {
-            n++;
-            current = current.next;
-        }
-        return current.data;
-    }
-
-    public int size() {
-        int total = 0;
-
-        ListNode current = this.root;
-        while (current != null) {
-            total++;
-            current = current.next;
-        }
-        return total;
-    }
-
-    public void append(int value) {
-        ListNode val = new ListNode(value);
-        ListNode current = this.root;
-        while (current.next != null) {
-            current = current.next;
-        }
-        current.next = val;
     }
 }
