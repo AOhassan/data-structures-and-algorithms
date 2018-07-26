@@ -11,7 +11,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="QueueWithStacks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QueueWithStacks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueueWithStacksTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/QueueWithStacksTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/QueueWithStacks.java" />
         <option value="$PROJECT_DIR$/src/QueueWithStacksTest.java" />
+        <option value="$PROJECT_DIR$/src/QueueWithStacks.java" />
       </list>
     </option>
   </component>
@@ -47,11 +73,17 @@
               <item name="day11" type="b2602c69:ProjectViewProjectNode" />
               <item name="day11" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="day11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,6 +231,27 @@
     <servers />
   </component>
   <component name="TestHistory">
+ortTest - 2018.07.23 at 18h 10m 48s.xml">
+      <configuration name="QueueWithStacksTest.enqueueShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueWithStacksTest_enqueueShortTest - 2018.07.23 at 18h 13m 01s.xml">
+      <configuration name="QueueWithStacksTest.enqueueShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueWithStacksTest_enqueueShortTest - 2018.07.23 at 18h 23m 19s.xml">
+      <configuration name="QueueWithStacksTest.enqueueShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueWithStacksTest_enqueueShortTest - 2018.07.23 at 18h 24m 19s.xml">
+      <configuration name="QueueWithStacksTest.enqueueShortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueWithStacksTest_enqueueLongTest - 2018.07.23 at 18h 31m 51s.xml">
+      <configuration name="QueueWithStacksTest.enqueueLongTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueWithStacksTest_dequeueOneTest - 2018.07.23 at 18h 37m 06s.xml">
+      <configuration name="QueueWithStacksTest.dequeueOneTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueWithStacksTest_dequeueOneTest - 2018.07.23 at 18h 38m 28s.xml">
+      <configuration name="QueueWithStacksTest.dequeueOneTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="QueueWithStacksTest_dequeueOneTest - 2018.07.23 at 18h 40m 00s.xml">
       <configuration name="QueueWithStacksTest.dequeueOneTest" configurationId="JUnit" />
     </history-entry>
@@ -208,65 +261,70 @@
     <history-entry file="QueueWithStacksTest_dequeueOneTest - 2018.07.23 at 18h 47m 51s.xml">
       <configuration name="QueueWithStacksTest.dequeueOneTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueWithStacksTest_dequeueLongTest - 2018.07.23 at 18h 54m 46s.xml">
-      <configuration name="QueueWithStacksTest.dequeueLongTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueWithStacksTest_dequeueLongTest - 2018.07.23 at 18h 55m 18s.xml">
-      <configuration name="QueueWithStacksTest.dequeueLongTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueWithStacksTest_dequeueLongTest - 2018.07.23 at 18h 56m 05s.xml">
-      <configuration name="QueueWithStacksTest.dequeueLongTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueWithStacksTest_dequeueLongTest - 2018.07.23 at 18h 56m 18s.xml">
-      <configuration name="QueueWithStacksTest.dequeueLongTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueWithStacksTest_dequeueLongTest - 2018.07.23 at 18h 56m 40s.xml">
-      <configuration name="QueueWithStacksTest.dequeueLongTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueWithStacksTest_dequeueMidTest - 2018.07.23 at 18h 58m 16s.xml">
-      <configuration name="QueueWithStacksTest.dequeueMidTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueWithStacksTest - 2018.07.23 at 18h 58m 18s.xml">
-      <configuration name="QueueWithStacksTest" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info anchor="bottom" id="Messages" weight="0.32969698" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/QueueWithStacksTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/QueueWithStacks.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueWithStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QueueWithStacksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
