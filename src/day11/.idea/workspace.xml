@@ -64,7 +64,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,7 +231,7 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueWithStacksTest_enqueueShortTest - 2018.07.23 at 18h 10m 48s.xml">
+ortTest - 2018.07.23 at 18h 10m 48s.xml">
       <configuration name="QueueWithStacksTest.enqueueShortTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QueueWithStacksTest_enqueueShortTest - 2018.07.23 at 18h 13m 01s.xml">
