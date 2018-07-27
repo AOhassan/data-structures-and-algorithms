@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66efb1c6-a1e4-4434-9970-14fc90f62683" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,6 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/p1/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -22,10 +26,29 @@
         </entry>
       </file>
       <file leaf-file-name="SolutionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/p1/SolutionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/p2/Anagram.java">
         <entry file="file://$PROJECT_DIR$/src/SolutionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnagramTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/p2/AnagramTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -43,6 +66,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Solution.java" />
+        <option value="$PROJECT_DIR$/src/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/p1/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/p2/AnagramTest.java" />
+        <option value="$PROJECT_DIR$/src/p2/Anagram.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
         <option value="$PROJECT_DIR$/src/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
@@ -61,6 +95,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,10 +108,15 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="p2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
-      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -116,13 +156,30 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
-    <configuration name="SolutionTest.rotLeftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="10" />
+      <option name="PACKAGE_NAME" value="p1" />
+      <option name="MAIN_CLASS_NAME" value="p1.SolutionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolutionTest.rotLeftLongTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionTest" />
-      <option name="METHOD_NAME" value="rotLeftTest" />
+      <option name="PACKAGE_NAME" value="p1" />
+      <option name="MAIN_CLASS_NAME" value="p1.SolutionTest" />
+      <option name="METHOD_NAME" value="rotLeftLongTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -133,13 +190,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SolutionTest.rotLeftTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
+    <configuration name="SolutionTest.rotLeftTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled104" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionTest" />
-      <option name="METHOD_NAME" value="rotLeftTest2" />
+      <option name="PACKAGE_NAME" value="p1" />
+      <option name="MAIN_CLASS_NAME" value="p1.SolutionTest" />
+      <option name="METHOD_NAME" value="rotLeftTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -153,11 +210,13 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.SolutionTest.rotLeftTest" />
-      <item itemvalue="JUnit.SolutionTest.rotLeftTest2" />
+      <item itemvalue="JUnit.SolutionTest.rotLeftLongTest" />
+      <item itemvalue="JUnit.SolutionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.rotLeftTest2" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.rotLeftLongTest" />
         <item itemvalue="JUnit.SolutionTest.rotLeftTest" />
       </list>
     </recent_temporary>
@@ -167,69 +226,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="66efb1c6-a1e4-4434-9970-14fc90f62683" name="Default" comment="" />
-      <created>1532558595463</created>
+      <changelist id="8d3d7aed-15ec-44a2-91fe-1d6f9fe12a95" name="Default" comment="" />
+      <created>1532655333107</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532558595463</updated>
+      <updated>1532655333107</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_rotLeftTest - 2018.07.25 at 21h 24m 38s.xml">
+    <history-entry file="SolutionTest_rotLeftTest - 2018.07.26 at 18h 48m 58s.xml">
       <configuration name="SolutionTest.rotLeftTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest - 2018.07.25 at 21h 29m 44s.xml">
-      <configuration name="SolutionTest.rotLeftTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_rotLeftLongTest - 2018.07.26 at 18h 52m 12s.xml">
+      <configuration name="SolutionTest.rotLeftLongTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest - 2018.07.25 at 21h 29m 51s.xml">
-      <configuration name="SolutionTest.rotLeftTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2018.07.26 at 18h 52m 22s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest - 2018.07.25 at 21h 30m 34s.xml">
-      <configuration name="SolutionTest.rotLeftTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2018.07.26 at 18h 55m 03s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest2 - 2018.07.25 at 21h 32m 55s.xml">
-      <configuration name="SolutionTest.rotLeftTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest2 - 2018.07.25 at 21h 36m 58s.xml">
-      <configuration name="SolutionTest.rotLeftTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest2 - 2018.07.25 at 21h 37m 13s.xml">
-      <configuration name="SolutionTest.rotLeftTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest2 - 2018.07.25 at 21h 42m 13s.xml">
-      <configuration name="SolutionTest.rotLeftTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest2 - 2018.07.25 at 21h 42m 22s.xml">
-      <configuration name="SolutionTest.rotLeftTest2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SolutionTest_rotLeftTest2 - 2018.07.25 at 21h 43m 20s.xml">
-      <configuration name="SolutionTest.rotLeftTest2" configurationId="JUnit" />
+    <history-entry file="SolutionTest - 2018.07.26 at 19h 18m 26s.xml">
+      <configuration name="SolutionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="655" y="23" width="785" height="794" extended-state="0" />
-    <editor active="true" />
+    <frame x="582" y="0" width="858" height="900" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11636364" />
+
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3001346" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15073529" />
+
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29411766" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,59 +289,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/SolutionTest.java</url>
-          <line>14</line>
-          <properties class="SolutionTest" method="rotLeftTest2">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+
         </state>
       </provider>
     </entry>
