@@ -2,8 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="106a3f4d-5ef1-4ca3-8648-7bf07eaffed4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/day06/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/src/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/src/MergedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08/src/MergedLinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/src/D02_ArrayShift.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02v2/src/DO2_ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/DO2_ArrayShiftTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/src/day06/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/src/day06/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/src/day06/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/src/KthElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/KthElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/src/KthElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/KthElementTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/src/MergedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08/MergedLinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10/src/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/src/QueueWithStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11/QueueWithStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11/src/QueueWithStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11/QueueWithStacksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/AnimalShelterQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/AnimalShelterQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/AnimalShelterQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/AnimalShelterQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/Cats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/Dogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12/src/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day13/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day13/src/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/day13/MultiBracketValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day14/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/src/MaxStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/day14/MaxStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14/src/MaxStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day14/MaxStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/src/EeneyMeeneyMineyMoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/day15/EeneyMeeneyMineyMoe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day15/src/EeneyMeeneyMineyMoeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day15/EeneyMeeneyMineyMoeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/src/FizzBuzzTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/FizzBuzzTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/src/FizzBuzzTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/FizzBuzzTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day16/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/TreeNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,31 +103,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day06/src/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day06/src/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day06/src/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -80,13 +145,13 @@
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,23 +260,21 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" visible="true" weight="0.32848486" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.32900944" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -224,52 +287,19 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day06/src/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/src/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/src/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/src/KthElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/src/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/src/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06/src/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day06/src/ListNode.java" />
+    <entry file="file://$PROJECT_DIR$/day06/src/LinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/day06/src/LinkedListTest.java" />
+    <entry file="file://$PROJECT_DIR$/day07/src/KthElement.java" />
+    <entry file="file://$PROJECT_DIR$/day06/src/ListNode.java" />
+    <entry file="file://$PROJECT_DIR$/day06/src/LinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/day06/src/LinkedListTest.java" />
   </component>
 </project>
