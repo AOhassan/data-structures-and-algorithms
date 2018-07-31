@@ -4,32 +4,21 @@ public class  FizzBuzzTree {
     TreeNode root;
 
     public void fizzBuzzTree(TreeNode current) {
-
         if (current != null) {
-
-            if(current.left != null) {
-                fizzBuzzTree(current.left);
-            }
-
+            fizzBuzzTree(current.left);
             process(current.data);
-
-            if(current.right != null) {
-                fizzBuzzTree(current.right);
-            }
+            fizzBuzzTree(current.right);
         }
     }
-    public void process(int value) {
 
+    public void process(int value) {
         if(value % 3 == 0 && value % 5 == 0) {
             System.out.println("FizzBuzz");
-        }
-        else if(value % 3 == 0) {
+        } else if(value % 3 == 0) {
             System.out.println("Fizz");
-        }
-        else if (value % 5 == 0) {
+        } else if (value % 5 == 0) {
             System.out.println("Buzz");
-        }
-        else {
+        } else {
             System.out.println(value);
         }
     }
