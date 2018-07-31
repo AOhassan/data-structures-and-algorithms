@@ -6,13 +6,26 @@ public class Anagram {
 
     public static int anagram(String a, String b) {
 
-        char[] arrayA = a.toCharArray();
-        char[] arrayB = b.toCharArray();
+        String c = a + b;
+        HashSet<Character> set = new HashSet<>();
 
         int count = 0;
-        while (!arrayA.equals(arrayB)) {
-            count++;
+        int i = 0;
+        while(i < c.length()){
+
+            if(set.contains(c.charAt(i))){
+
+                set.remove(c.charAt(i));
+
+            } else {
+
+                set.add(c.charAt(i));
+
+            }
+
+            i++;
         }
-        return count;
+
+        return set.size();
     }
 }
