@@ -1,7 +1,5 @@
 package day10;
 
-import day08.ListNode;
-
 public class ReverseLinkedList {
     public ListNode root;
 
@@ -12,12 +10,12 @@ public class ReverseLinkedList {
         ListNode next = ll.next;
 
         while(cur != null){
+            next = cur.next;
 
             cur.next = prev;
 
             prev = cur;
             cur = next;
-            next = next.next;
         }
         return prev;
     }
