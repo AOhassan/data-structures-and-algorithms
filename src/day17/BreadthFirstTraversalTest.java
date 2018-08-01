@@ -1,3 +1,5 @@
+package day17;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BreadthFirstTraversalTest {
@@ -21,7 +23,7 @@ class BreadthFirstTraversalTest {
         n1.right = n5;
 
         String actual = tree.breadthFirstTraversal();
-        String expected = "1\n 30\n 45\n 3\n 20\n";
+        String expected = "\n1\n30\n45\n3\n20\n";
 
         assertEquals(expected, actual);
     }
@@ -45,7 +47,7 @@ class BreadthFirstTraversalTest {
         n1.right = n5;
 
         String actual = tree.breadthFirstTraversal();
-        String expected = "15\n 5\n 21\n 30\n 27\n";
+        String expected = "\n15\n5\n21\n30\n27\n";
 
         assertEquals(expected, actual);
     }
@@ -69,7 +71,7 @@ class BreadthFirstTraversalTest {
         n1.right = n5;
 
         String actual = tree.breadthFirstTraversal();
-        String expected = "1\n 5\n 4\n 70\n 15\n";
+        String expected = "\n1\n5\n4\n70\n15\n";
 
         assertEquals(expected, actual);
     }
