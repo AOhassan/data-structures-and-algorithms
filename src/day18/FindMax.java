@@ -4,7 +4,7 @@ public class FindMax {
     TreeNode root;
 
     private int findMax(TreeNode node) {
-        if (node == null) return 0;
+        if (node == null) return Integer.MIN_VALUE;
 
         int left = this.findMax(node.left);
         int right = this.findMax(node.right);
@@ -17,4 +17,3 @@ public class FindMax {
         return this.findMax(this.root);
     }
 }
-

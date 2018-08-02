@@ -10,11 +10,11 @@ class FindMaxTest {
     void findMaxTest() {
         FindMax tree = new FindMax();
 
-        TreeNode n1 = new TreeNode(30);
-        TreeNode n2 = new TreeNode(1);
-        TreeNode n3 = new TreeNode(45);
-        TreeNode n4 = new TreeNode(20);
-        TreeNode n5 = new TreeNode(3);
+        TreeNode n1 = new TreeNode(-30);
+        TreeNode n2 = new TreeNode(-1);
+        TreeNode n3 = new TreeNode(-45);
+        TreeNode n4 = new TreeNode(-20);
+        TreeNode n5 = new TreeNode(-3);
 
         tree.root = n2;
 
@@ -24,7 +24,7 @@ class FindMaxTest {
         n3.left = n4;
         n1.right = n5;
 
-        int expected = 45;
+        int expected = -1;
         int actual = tree.findMax();
 
         assertEquals(expected,actual);
