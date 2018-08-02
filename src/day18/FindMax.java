@@ -16,4 +16,19 @@ public class FindMax {
     public int findMax() {
         return this.findMax(this.root);
     }
+
+
+    private int findMax2(TreeNode node) {
+        if (node == null) return Integer.MIN_VALUE;
+
+        int left = (node.data > this.findMax(node.left)) ? node.data : this.findMax(node.left);
+        int right = (node.data > this.findMax(node.right)) ? node.data : this.findMax(node.right);
+        int max = (left > right) ? left : right;
+
+        return max;
+    }
+
+    public int findMax2() {
+        return this.findMax(this.root);
+    }
 }
