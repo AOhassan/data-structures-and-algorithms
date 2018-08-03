@@ -29,6 +29,6 @@ public class FindMax {
     }
 
     public int findMax2() {
-        return this.findMax(this.root);
+        return this.findMax2(this.root);
     }
 }

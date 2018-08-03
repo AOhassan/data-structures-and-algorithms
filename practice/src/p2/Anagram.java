@@ -13,18 +13,15 @@ public class Anagram {
         int i = 0;
         while(i < c.length()){
 
-            if(set.contains(c.charAt(i))){
-
+            if(a.contains(c.charAt(i))){
                 set.remove(c.charAt(i));
-
             } else {
-
                 set.add(c.charAt(i));
-
             }
-
             i++;
         }
+
+
 
         return set.size();
     }
