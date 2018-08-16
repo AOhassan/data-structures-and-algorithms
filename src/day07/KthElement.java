@@ -5,7 +5,7 @@ public class KthElement {
 
     public ListNode kthElement(int k) {
 
-        this.root = null;
+
         ListNode current = this.root;
 
         int total = 0;
