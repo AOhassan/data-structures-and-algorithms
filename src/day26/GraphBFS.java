@@ -19,14 +19,14 @@ public class GraphBFS {
 
         while(!qq.isEmpty()){
 
-            Node poll = qq.poll();
-
-            if(poll.)
-
-            if(!seen.contains(poll)){
-                seen.add(poll);
-                result += poll.toString() + " ";
-            }
+//            Node poll = qq.poll();
+//
+//            if(poll.)
+//
+//            if(!seen.contains(poll)){
+//                seen.add(poll);
+//                result += poll.toString() + " ";
+//            }
 
 
         }
