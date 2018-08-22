@@ -51,11 +51,11 @@ class TreeIntersectionTest extends TreeIntersection {
         n1.left = n2;
         n1.right = n3;
 
-        n2.left= n4;
-        n2.right= n5;
+        n2.left = n4;
+        n2.right = n5;
 
-        n3.left= n6;
-        n3.right= n7;
+        n3.left = n6;
+        n3.right = n7;
 
         TreeNode r1 = new TreeNode(2);
         TreeNode r2 = new TreeNode(5);
@@ -94,19 +94,19 @@ class TreeIntersectionTest extends TreeIntersection {
         n1.left = n2;
         n1.right = n3;
 
-        n2.left= n3;
-        n2.right= n4;
+        n2.left = n3;
+        n2.right = n4;
 
-        n3.left= n5;
-        n3.right= n6;
+        n3.left = n5;
+        n3.right = n6;
 
         n4.left = n7;
-        n4.right= n8;
+        n4.right = n8;
 
-        n5.left= n9;
-        n5.right= n10;
+        n5.left = n9;
+        n5.right = n10;
 
-        n6.left= n11;
+        n6.left = n11;
 
         TreeNode r1 = new TreeNode(1);
         TreeNode r2 = new TreeNode(2);
@@ -120,11 +120,11 @@ class TreeIntersectionTest extends TreeIntersection {
         r1.left = r2;
         r1.right = r3;
 
-        r2.left= r4;
-        r2.right= r5;
+        r2.left = r4;
+        r2.right = r5;
 
-        r3.left= r6;
-        r3.right= r7;
+        r3.left = r6;
+        r3.right = r7;
 
         Set expected = new HashSet();
         expected.add(1);
@@ -156,7 +156,9 @@ class TreeIntersectionTest extends TreeIntersection {
         expected.add(300);
         expected.add(200);
         expected.add(100);
-        Set actual = hashSetTraversal();
+
+        Set actual = new HashSet();
+        hashSetTraversal(n1, actual);
 
         assertEquals(expected, actual);
     }
@@ -176,30 +178,75 @@ class TreeIntersectionTest extends TreeIntersection {
         n1.left = n2;
         n1.right = n3;
 
-        n2.left=n4;
-        n2.right=n5;
+        n2.left = n4;
+        n2.right = n5;
 
-        n3.left=n6;
-        n3.right=n7;
-
-        TreeNode r1 = new TreeNode(1);
-        TreeNode r2 = new TreeNode(2);
-        TreeNode r3 = new TreeNode(5);
-
-
-        r1.left = r2;
-        r1.right = r3;
+        n3.left = n6;
+        n3.right = n7;
 
         Set expected = new HashSet();
-        expected.add(200);
+        expected.add(1);
+        expected.add(5);
+        expected.add(2);
+        expected.add(3);
+        expected.add(4);
+        expected.add(6);
+        expected.add(7);
 
-        Set actual = treeIntersection(n1, r1);
+        Set actual = new HashSet();
+        hashSetTraversal(n1, actual);
 
         assertEquals(expected, actual);
     }
 
     @Test
     void hashSetTraversalLongTest() {
-    }
+        TreeNode n1 = new TreeNode(1);
+        TreeNode n2 = new TreeNode(2);
+        TreeNode n3 = new TreeNode(3);
+        TreeNode n4 = new TreeNode(4);
+        TreeNode n5 = new TreeNode(5);
+        TreeNode n6 = new TreeNode(6);
+        TreeNode n7 = new TreeNode(7);
+        TreeNode n8 = new TreeNode(100);
+        TreeNode n9 = new TreeNode(200);
+        TreeNode n10 = new TreeNode(30);
+        TreeNode n11 = new TreeNode(67);
 
+
+        n1.left = n2;
+        n1.right = n3;
+
+        n2.left = n3;
+        n2.right = n4;
+
+        n3.left = n5;
+        n3.right = n6;
+
+        n4.left = n7;
+        n4.right = n8;
+
+        n5.left = n9;
+        n5.right = n10;
+
+        n6.left = n11;
+
+        Set expected = new HashSet();
+        expected.add(1);
+        expected.add(2);
+        expected.add(3);
+        expected.add(4);
+        expected.add(5);
+        expected.add(6);
+        expected.add(7);
+        expected.add(100);
+        expected.add(200);
+        expected.add(30);
+        expected.add(67);
+
+        Set actual = new HashSet();
+        hashSetTraversal(n1, actual);
+
+        assertEquals(expected, actual);
+    }
 }
