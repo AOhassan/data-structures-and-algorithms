@@ -2,69 +2,99 @@ package day33;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 class LeftJoinTest extends LeftJoin {
 
     @Test
-    void leftJoinRegularTest() {
-        Map<String, String> map1 = new HashMap<String, String>() {{
-            put("end", "start");
-            put("create", "make");
-        }};
-        Map<String, String> map2 = new HashMap<String, String>() {{
+    void leftJoinShortTest() {
+
+        Map map1 = new HashMap<String, String>() {{
             put("end", "stop");
-            put("create", "break");
+        }};
+        Map map2 = new HashMap<String, String>() {{
+            put("end", "start");
         }};
 
-        String[][] expected = new String[][] {
-            {},
-            {}
-        };
+        List<String> list1 = new ArrayList<>();
+        list1.add("stop");
+        list1.add("start");
 
-        String[][] actual = leftJoin(map1, map2);
+        Map<String,List<String>> expected = new HashMap();
+        expected.put("end", list1);
 
-        assertArrayEquals(expected, actual);
+
+        Map<String,List<String>> actual = leftJoin(map1, map2);
+
+        assertEquals(expected, actual);
     }
 
     @Test
-    void leftJoinRegularTest2() {
-        Map<String,String> map1 = new HashMap<>();
-        Map<String,String> map2 = new HashMap<>();
+    void leftJoinLongTest() {
 
-        map1.put("create", "make");
-        map2.put("create", "break");
+        Map map1 = new HashMap<String, String>() {{
+            put("end", "stop");
+            put("create", "make");
+            put("complete", "finished");
+        }};
+        Map map2 = new HashMap<String, String>() {{
+            put("end", "start");
+            put("create", "break");
+            put("complete", "incomplete");
+        }};
 
+        List<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+        List<String> list3 = new ArrayList<>();
 
-        List<String> expected = new ArrayList<>();
-        expected.add("create");
-        expected.add("make");
-        expected.add("break");
+        list1.add("stop");
+        list1.add("start");
+        list2.add("make");
+        list2.add("break");
+        list3.add("finished");
+        list3.add("incomplete");
 
-        Object actual = leftJoin(map1, map2);
+        Map<String,List<String>> expected = new HashMap();
+        expected.put("end", list1);
+        expected.put("create", list2);
+        expected.put("complete", list3);
+
+        Map<String,List<String>> actual = leftJoin(map1, map2);
 
         assertEquals(expected, actual);
     }
 
     @Test
     void leftJoinEmptyTest() {
-        Map<String,String> map1 = new HashMap<>();
-        Map<String,String> map2 = new HashMap<>();
+        Map map1 = new HashMap<String, String>() {{
+            put("end", "stop");
+            put("create", "make");
+        }};
+        Map map2 = new HashMap<String, String>() {{
+            put("hi", "start");
+            put("hey", "break");
+        }};
 
-        map1.put("complete", "full");
-        map2.put("hi", "incomplete");
+        List<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+
+        list1.add("stop");
+        list1.add(null);
+        list2.add("make");
+        list2.add(null);
 
 
-        List<String> expected = new ArrayList<>();
-        expected.add("complete");
-        expected.add("full");
-        expected.add(null);
+        Map<String,List<String>> expected = new HashMap();
+        expected.put("end", list1);
+        expected.put("create", list2);
 
-        Object actual = leftJoin(map1, map2);
+        Map<String,List<String>> actual = leftJoin(map1, map2);
 
         assertEquals(expected, actual);
     }

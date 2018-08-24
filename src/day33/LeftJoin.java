@@ -1,28 +1,28 @@
 package day33;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
 public class LeftJoin {
-    public String[][] leftJoin(Map<String, String> left, Map<String, String> right) {
-        String arr[][] = new String[left.size()][];
+    public Map leftJoin(Map<String, String> left, Map<String, String> right) {
+        Map<String,List<String>> map = new HashMap<>();
 
-        for(int i = 0; i < arr.length; i++) {
-            for (Map.Entry<String, String> entry : left.entrySet()) {
-                String leftKey = entry.getKey();
-                String leftValue = entry.getValue();
-
-                if (right.containsKey(leftKey)) {
-                    arr[i][0] = leftKey;
-                    arr[i][1] = leftValue;
-                    arr[i][2] = right.get(leftKey);
-                } else {
-                    arr[i][0] = leftKey;
-                    arr[i][1] = leftValue;
-                    arr[i][1] = null;
-                }
+        for (String key: left.keySet()) {
+            List<String> list = new ArrayList<>();
+            if (right.containsKey(key)) {
+                list.add(left.get(key));
+                list.add(right.get(key));
+                map.put(key, list);
+            } else {
+                list.add(left.get(key));
+                list.add(null);
+                map.put(key, list);
             }
         }
-        return arr;
+        return map;
     }
 }
+
