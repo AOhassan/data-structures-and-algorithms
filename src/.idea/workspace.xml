@@ -1,100 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="106a3f4d-5ef1-4ca3-8648-7bf07eaffed4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/day02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/src/D02_ArrayShift.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day02v2/src/DO2_ArrayShiftTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day02/DO2_ArrayShiftTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/src/day06/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/src/day06/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day06/src/day06/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/src/KthElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/KthElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/src/KthElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/KthElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08/src/MergedLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08/MergedLinkedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/src/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09/LinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10/src/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/src/QueueWithStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11/QueueWithStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11/src/QueueWithStacksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day11/QueueWithStacksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/AnimalShelterQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/AnimalShelterQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/AnimalShelterQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/AnimalShelterQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/Cats.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/Cats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/Dogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/Dogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day12/src/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/day12/Pets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day13/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day13/src/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/day13/MultiBracketValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/src/MaxStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/day14/MaxStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day14/src/MaxStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day14/MaxStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/EeneyMeeneyMineyMoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/day15/EeneyMeeneyMineyMoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day15/src/EeneyMeeneyMineyMoeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day15/EeneyMeeneyMineyMoeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16/src/FizzBuzzTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/FizzBuzzTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16/src/FizzBuzzTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/FizzBuzzTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day16/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/day16/TreeNode.java" afterDir="false" />
-    </list>
+    <list default="true" id="106a3f4d-5ef1-4ca3-8648-7bf07eaffed4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -128,8 +35,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,21 +42,13 @@
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="src" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day14" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +171,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -283,11 +180,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">

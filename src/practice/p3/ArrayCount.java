@@ -1,4 +1,4 @@
-package p3;
+package practice.p3;
 
 public class ArrayCount {
     public static int arrayCount(int[] arr){
