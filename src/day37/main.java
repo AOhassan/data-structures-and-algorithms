@@ -18,7 +18,7 @@ public class main {
 
         System.out.println("Insertion sort of an array size 10,000 took: " + delta1 +"ms");
         boolean sorted = Sort.isSorted(arr1);
-        System.out.println("Is it Sorted: " );
+        System.out.println("Is it Sorted: " +  sorted );
 
 
         long start2 = System.currentTimeMillis();
