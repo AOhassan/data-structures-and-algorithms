@@ -204,7 +204,7 @@ public class AdjacencyListGraphTest {
 
     @Test
     public void traverseTest() {
-        List<Node<String>> traversal = breadthFirstTraversal(washington, ellensberg);
+        List<Node<String>> traversal = breadthFirst(washington, ellensberg);
 
         Set<Node<String>> firstLevel = new HashSet<>();
         firstLevel.add(ellensberg);
@@ -242,7 +242,7 @@ public class AdjacencyListGraphTest {
         }
     }
 
-    public List<Node<String>> breadthFirstTraversal(Graph<String> graph, Node<String> start) {
+    public List<Node<String>> breadthFirst(Graph<String> graph, Node<String> start) {
         Queue<Node<String>> qq = new LinkedList<>();
         List<Node<String>> list = new ArrayList<>();
         Set<Node<String>> set = new HashSet<>();
@@ -274,7 +274,7 @@ public class AdjacencyListGraphTest {
         itinerary.add(richland);
         itinerary.add(wallaWalla);
 
-        assertEquals(368, tripCost(washington, itinerary));
+        assertEquals(368, getEdges(washington, itinerary));
     }
 
     @Test
@@ -285,10 +285,10 @@ public class AdjacencyListGraphTest {
         itinerary.add(ellensberg);
         itinerary.add(wallaWalla);
 
-        assertEquals(0, tripCost(washington, itinerary));
+        assertEquals(0, getEdges(washington, itinerary));
     }
 
-    public int tripCost(Graph graph, List<Node<String>> itinerary) {
+    public int getEdges(Graph graph, List<Node<String>> itinerary) {
         int cost = 0;
 
         for (int i = 0; i < itinerary.size() - 1; i++) {
@@ -318,11 +318,11 @@ public class AdjacencyListGraphTest {
 
         usa.addTwoWayEdge(washington, oregon);
 
-        assertEquals(0, numIslands(this.washington));
-        assertEquals(2, numIslands(usa));
+        assertEquals(0, depthFirst(this.washington));
+        assertEquals(2, depthFirst(usa));
     }
 
-    public int numIslands(Graph<String> graph) {
+    public int depthFirst(Graph<String> graph) {
         int island = 0;
         for (Node<String> node : graph.getNodes()) {
             if (graph.getNeighbors(node).isEmpty()) {
