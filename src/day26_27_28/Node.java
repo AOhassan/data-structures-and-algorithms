@@ -1,4 +1,4 @@
-package day27;
+package day26_27_28;
 
 public class Node<E> {
     private E data;
@@ -15,4 +15,3 @@ public class Node<E> {
         return this.data.toString();
     }
 }
-
