@@ -318,11 +318,11 @@ public class AdjacencyListGraphTest {
 
         usa.addTwoWayEdge(washington, oregon);
 
-        assertEquals(0, depthFirst(this.washington));
-        assertEquals(2, depthFirst(usa));
+        assertEquals(0, numIslands(this.washington));
+        assertEquals(2, numIslands(usa));
     }
 
-    public int depthFirst(Graph<String> graph) {
+    public int numIslands(Graph<String> graph) {
         int island = 0;
         for (Node<String> node : graph.getNodes()) {
             if (graph.getNeighbors(node).isEmpty()) {
